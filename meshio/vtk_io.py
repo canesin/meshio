@@ -171,7 +171,7 @@ def _read_exodusii_mesh(reader, timestep=None):
         blk = out.GetBlock(i)
         for j in range(blk.GetNumberOfBlocks()):
             sub_block = blk.GetBlock(j)
-            if sub_block.IsA('vtkUnstructuredGrid'):
+            if (sub_block != None) and sub_block.IsA('vtkUnstructuredGrid'):
                 vtk_mesh.append(sub_block)
 
     if len(vtk_mesh) == 0:

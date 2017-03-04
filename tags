@@ -1,0 +1,136 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ET	meshio/dolfin_io.py	/^    from lxml import etree as ET$/;"	kind:namespace	line:16
+ET	meshio/dolfin_io.py	/^    from lxml import etree as ET$/;"	kind:namespace	line:79
+__about__	meshio/h5m_io.py	/^from . import __about__$/;"	kind:namespace	line:12
+__about__.py	meshio/__about__.py	1;"	kind:file	line:1
+__author__	meshio/__about__.py	/^__author__ = 'Nico Schlömer'$/;"	kind:variable	line:4
+__author__	meshio/permas_io.py	/^from .__about__ import __version__, __website__, __author__$/;"	kind:namespace	line:12
+__author_email__	meshio/__about__.py	/^__author_email__ = 'nico.schloemer@gmail.com'$/;"	kind:variable	line:5
+__init__.py	meshio/__init__.py	1;"	kind:file	line:1
+__version__	meshio/__about__.py	/^__version__ = '1.7.1'$/;"	kind:variable	line:3
+__version__	meshio/permas_io.py	/^from .__about__ import __version__, __website__, __author__$/;"	kind:namespace	line:12
+__website__	meshio/__about__.py	/^__website__ = 'https:\/\/github.com\/nschloe\/meshio'$/;"	kind:variable	line:6
+__website__	meshio/permas_io.py	/^from .__about__ import __version__, __website__, __author__$/;"	kind:namespace	line:12
+_add_cell_data	test/test_io.py	/^def _add_cell_data(mesh, dim):$/;"	kind:function	line:107
+_add_point_data	test/test_io.py	/^def _add_point_data(mesh, dim):$/;"	kind:function	line:91
+_clone	test/test_io.py	/^def _clone(mesh):$/;"	kind:function	line:81
+_create_vtkarray	meshio/vtk_io.py	/^    def _create_vtkarray(X, name):$/;"	kind:function	line:207
+_extension_to_filetype	meshio/__init__.py	/^_extension_to_filetype = {$/;"	kind:variable	line:52
+_generate_vtk_mesh	meshio/vtk_io.py	/^def _generate_vtk_mesh(points, cells):$/;"	kind:function	line:300
+_main	tools/meshio-convert	/^def _main():$/;"	kind:function	line:10
+_parse_options	tools/meshio-convert	/^def _parse_options():$/;"	kind:function	line:76
+_read_cells	meshio/vtk_io.py	/^    def _read_cells(vtk_mesh):$/;"	kind:function	line:28
+_read_data	meshio/vtk_io.py	/^    def _read_data(data):$/;"	kind:function	line:15
+_read_exodusii_mesh	meshio/vtk_io.py	/^def _read_exodusii_mesh(reader, timestep=None):$/;"	kind:function	line:137
+_write_read	test/test_io.py	/^def _write_read(filename, mesh):$/;"	kind:function	line:184
+about	setup.py	/^about = {}$/;"	kind:variable	line:9
+argparse	tools/meshio-convert	/^    import argparse$/;"	kind:namespace	line:78
+author	setup.py	/^    author=about['__author__'],$/;"	kind:variable	line:28
+author_email	setup.py	/^    author_email=about['__author_email__'],$/;"	kind:variable	line:29
+base_dir	setup.py	/^base_dir = os.path.abspath(os.path.dirname(__file__))$/;"	kind:variable	line:8
+classifiers	setup.py	/^    classifiers=[$/;"	kind:variable	line:48
+codecs	setup.py	/^import codecs$/;"	kind:namespace	line:5
+datetime	meshio/h5m_io.py	/^from datetime import datetime$/;"	kind:namespace	line:8
+description	setup.py	/^    description='I\/O for various mesh formats',$/;"	kind:variable	line:31
+dolfin_io	meshio/__init__.py	/^from . import dolfin_io$/;"	kind:namespace	line:3
+dolfin_io.py	meshio/dolfin_io.py	1;"	kind:file	line:1
+download_url	setup.py	/^    download_url='https:\/\/pypi.python.org\/pypi\/meshio',$/;"	kind:variable	line:34
+dtype_digits	meshio/dolfin_io.py	/^from meshio.helpers import dtype_digits$/;"	kind:namespace	line:12
+dtype_digits	meshio/helpers.py	/^def dtype_digits(dt):$/;"	kind:function	line:6
+dtype_digits	meshio/medit_io.py	/^from meshio.helpers import dtype_digits$/;"	kind:namespace	line:12
+dtype_digits	meshio/msh_io.py	/^from meshio.helpers import dtype_digits$/;"	kind:namespace	line:13
+dtype_digits	meshio/off_io.py	/^from meshio.helpers import dtype_digits$/;"	kind:namespace	line:12
+extras_require	setup.py	/^    extras_require={$/;"	kind:variable	line:41
+gzip	meshio/permas_io.py	/^import gzip$/;"	kind:namespace	line:9
+h5m_io	meshio/__init__.py	/^from . import h5m_io$/;"	kind:namespace	line:4
+h5m_io.py	meshio/h5m_io.py	1;"	kind:file	line:1
+h5py	meshio/h5m_io.py	/^    import h5py$/;"	kind:namespace	line:125
+h5py	meshio/h5m_io.py	/^    import h5py$/;"	kind:namespace	line:25
+helpers.py	meshio/helpers.py	1;"	kind:file	line:1
+input_filetypes	meshio/__init__.py	/^input_filetypes = [$/;"	kind:variable	line:25
+install_requires	setup.py	/^    install_requires=[$/;"	kind:variable	line:37
+islice	meshio/medit_io.py	/^from itertools import islice$/;"	kind:namespace	line:9
+islice	meshio/msh_io.py	/^from itertools import islice$/;"	kind:namespace	line:9
+islice	meshio/off_io.py	/^from itertools import islice$/;"	kind:namespace	line:9
+license	setup.py	/^    license='License :: OSI Approved :: MIT License',$/;"	kind:variable	line:35
+long_description	setup.py	/^    long_description=read('README.rst'),$/;"	kind:variable	line:32
+medit_io	meshio/__init__.py	/^from . import medit_io$/;"	kind:namespace	line:5
+medit_io.py	meshio/medit_io.py	1;"	kind:file	line:1
+meshio	test/test_io.py	/^import meshio$/;"	kind:namespace	line:3
+meshio	tools/meshio-convert	/^import meshio$/;"	kind:namespace	line:5
+meshio-convert	tools/meshio-convert	1;"	kind:file	line:1
+msg	meshio/__init__.py	/^    msg = pipdated.check(__name__, __version__)$/;"	kind:variable	line:20
+msh_io	meshio/__init__.py	/^from . import msh_io$/;"	kind:namespace	line:6
+msh_io.py	meshio/msh_io.py	1;"	kind:file	line:1
+name	setup.py	/^    name='meshio',$/;"	kind:variable	line:26
+np	tools/meshio-convert	/^import numpy as np$/;"	kind:namespace	line:7
+numpy	meshio/dolfin_io.py	/^import numpy$/;"	kind:namespace	line:9
+numpy	meshio/h5m_io.py	/^import numpy$/;"	kind:namespace	line:9
+numpy	meshio/helpers.py	/^import numpy$/;"	kind:namespace	line:3
+numpy	meshio/medit_io.py	/^import numpy$/;"	kind:namespace	line:10
+numpy	meshio/msh_io.py	/^import numpy$/;"	kind:namespace	line:10
+numpy	meshio/off_io.py	/^import numpy$/;"	kind:namespace	line:10
+numpy	meshio/permas_io.py	/^import numpy$/;"	kind:namespace	line:10
+numpy	meshio/vtk_io.py	/^import numpy$/;"	kind:namespace	line:8
+numpy	test/test_io.py	/^import numpy$/;"	kind:namespace	line:5
+numpy_support	meshio/vtk_io.py	/^    from vtk.util import numpy_support$/;"	kind:namespace	line:13
+numpy_support	meshio/vtk_io.py	/^    from vtk.util import numpy_support$/;"	kind:namespace	line:205
+numpy_support	meshio/vtk_io.py	/^    from vtk.util import numpy_support$/;"	kind:namespace	line:302
+off_io	meshio/__init__.py	/^from . import off_io$/;"	kind:namespace	line:7
+off_io.py	meshio/off_io.py	1;"	kind:file	line:1
+os	meshio/__init__.py	/^    import os$/;"	kind:namespace	line:136
+os	meshio/__init__.py	/^    import os$/;"	kind:namespace	line:83
+os	setup.py	/^import os$/;"	kind:namespace	line:3
+os	test/test_io.py	/^import os$/;"	kind:namespace	line:6
+output_filetypes	meshio/__init__.py	/^output_filetypes = [$/;"	kind:variable	line:38
+packages	setup.py	/^    packages=['meshio'],$/;"	kind:variable	line:30
+permas_io	meshio/__init__.py	/^from . import permas_io$/;"	kind:namespace	line:8
+permas_io.py	meshio/permas_io.py	1;"	kind:file	line:1
+pipdated	meshio/__init__.py	/^import pipdated$/;"	kind:namespace	line:18
+platforms	setup.py	/^    platforms='any',$/;"	kind:variable	line:36
+pytest	test/test_io.py	/^import pytest$/;"	kind:namespace	line:7
+quad_mesh	test/test_io.py	/^quad_mesh = {$/;"	kind:variable	line:27
+re	meshio/permas_io.py	/^import re$/;"	kind:namespace	line:11
+read	meshio/__init__.py	/^def read(filename, file_format=None):$/;"	kind:function	line:72
+read	meshio/dolfin_io.py	/^def read(filename):$/;"	kind:function	line:15
+read	meshio/h5m_io.py	/^def read(filename):$/;"	kind:function	line:21
+read	meshio/medit_io.py	/^def read(filename):$/;"	kind:function	line:15
+read	meshio/msh_io.py	/^def read(filename):$/;"	kind:function	line:16
+read	meshio/off_io.py	/^def read(filename):$/;"	kind:function	line:15
+read	meshio/permas_io.py	/^def read(filename):$/;"	kind:function	line:15
+read	meshio/vtk_io.py	/^def read(filetype, filename):$/;"	kind:function	line:11
+read	setup.py	/^def read(fname):$/;"	kind:function	line:14
+read_buffer	meshio/medit_io.py	/^def read_buffer(f):$/;"	kind:function	line:22
+read_buffer	meshio/msh_io.py	/^def read_buffer(f):$/;"	kind:function	line:25
+read_buffer	meshio/off_io.py	/^def read_buffer(f):$/;"	kind:function	line:22
+scripts	setup.py	/^    scripts=[$/;"	kind:variable	line:45
+setup	setup.py	/^from distutils.core import setup$/;"	kind:namespace	line:4
+setup.py	setup.py	1;"	kind:file	line:1
+test_io	test/test_io.py	/^def test_io(extension, meshes):$/;"	kind:function	line:178
+test_io.py	test/test_io.py	1;"	kind:file	line:1
+tet_mesh	test/test_io.py	/^tet_mesh = {$/;"	kind:variable	line:64
+tri_mesh	test/test_io.py	/^tri_mesh = {$/;"	kind:variable	line:12
+tri_quad_mesh	test/test_io.py	/^tri_quad_mesh = {$/;"	kind:variable	line:44
+url	setup.py	/^    url='https:\/\/github.com\/nschloe\/meshio',$/;"	kind:variable	line:33
+version	setup.py	/^    version=about['__version__'],$/;"	kind:variable	line:27
+vtk	meshio/vtk_io.py	/^    import vtk$/;"	kind:namespace	line:12
+vtk	meshio/vtk_io.py	/^    import vtk$/;"	kind:namespace	line:204
+vtk	meshio/vtk_io.py	/^    import vtk$/;"	kind:namespace	line:301
+vtk_io	meshio/__init__.py	/^from . import vtk_io$/;"	kind:namespace	line:9
+vtk_io.py	meshio/vtk_io.py	1;"	kind:file	line:1
+warnings	meshio/dolfin_io.py	/^import warnings$/;"	kind:namespace	line:10
+warnings	meshio/h5m_io.py	/^import warnings$/;"	kind:namespace	line:10
+warnings	meshio/msh_io.py	/^import warnings$/;"	kind:namespace	line:11
+write	meshio/__init__.py	/^def write(filename,$/;"	kind:function	line:120
+write	meshio/dolfin_io.py	/^def write($/;"	kind:function	line:71
+write	meshio/h5m_io.py	/^def write($/;"	kind:function	line:113
+write	meshio/medit_io.py	/^def write($/;"	kind:function	line:83
+write	meshio/msh_io.py	/^def write($/;"	kind:function	line:155
+write	meshio/off_io.py	/^def write($/;"	kind:function	line:98
+write	meshio/permas_io.py	/^def write($/;"	kind:function	line:78
+write	meshio/vtk_io.py	/^def write(filetype,$/;"	kind:function	line:196
